@@ -15,7 +15,7 @@
     "faker": "^6.6.6",
     "forever": "^2.0.0",
     "helmet": "^2.0.0",
-    "marked": "0.3.5",
+    "marked": "4.0.10",
     "mongodb": "^2.1.18",
     "needle": "2.2.4",
     "node-esapi": "0.0.1",

@@ -1,5 +1,4 @@
 {
-    "settingsInheritedFrom": "aayant-mend/whitesource-config@primary",
     "remediateSettings": {
         "enableRenovate": true,
         "extends": [

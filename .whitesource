@@ -1,4 +1,12 @@
 {
-  "settingsInheritedFrom": "aayant-mend/whitesource-config@primary"
+    "settingsInheritedFrom": "aayant-mend/whitesource-config@primary",
+    "remediateSettings": {
+        "enableRenovate": true,
+        "extends": [
+            "github>whitesource/merge-confidence:beta"
+        ]
+    },
+    "leastVulnerablePackageSettings": {
+        "enabled": true
+    }
 }
-

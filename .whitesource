@@ -1,11 +1,36 @@
 {
+    "scanSettings": {
+        "configMode": "AUTO",
+        "enableLicenseViolations": "true",
+        "enableIaC": "true",
+        "baseBranches": []
+    },
+    "scanSettingsSAST": {
+        "enableScan": "false",
+        "enableRemediation": "true",
+        "ScanPullRequests": "true"
+    },
+    "pullRequestStatusSettings": {
+        "vulnerablePullRequestStatus": "failed",
+        "displayMode": "diff",
+        "useMendStatusNames": "true"
+    },
+    "checkRunSettings": {
+        "vulnerableCheckRunConclusionLevel": "failure",
+        "displayMode": "diff",
+        "useMendCheckNames": "true"
+    },
+    "issueSettings": {
+        "minSeverityLevel": "LOW",
+        "issueType": "DEPENDENCY"
+    },
     "remediateSettings": {
+        "workflowRules": {
+            "enabled": false
+        },
         "enableRenovate": true,
         "extends": [
             "github>whitesource/merge-confidence:beta"
         ]
-    },
-    "leastVulnerablePackageSettings": {
-        "enabled": true
     }
 }
